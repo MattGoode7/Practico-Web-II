@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wibond Inicia Sesion</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="loginForm">
+      <header class="mainLogoTop"></header>
+      <form method="post">
+        <div class="formLabelUser">
+          <label for="user" class="bi-person"></label>
+          <input
+            type="text"
+            id="user"
+            name="user"
+            placeholder=" Usuario"
+            required="true"
+            class="noBorder"
+          />
+        </div>
+        <div class="formLabelPassword">
+          <label for="password" class="bi-envelope"></label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder=" Contraseña"
+            required="true"
+            class="noBorder"
+          />
+        </div>
+        <a href="#" class="passForget">¿Olvidaste tu contraseña?</a>
+        <div class="elemento">
+          <input type="submit" value="Iniciar Sesión">
+        </div>
+      </form>
+      <div class="noAccount">
+        <p>¿No tenés una cuenta? - 
+          <span>
+            <a href="#">Registrate</a>
+          </span></p>
+      </div>
+    </div>
+  </body>
+</html>
