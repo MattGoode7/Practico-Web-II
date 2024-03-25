@@ -1,0 +1,127 @@
+/* Estilos generales */
+h1{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.texto-descripcion{
+    text-decoration: none;
+    color: rgba(28, 25, 57, 0.80);
+    font-family: "Lato", sans-serif;
+    font-size: 0.9375rem; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem; 
+}
+
+.lato-font{
+    font-family: "Lato", sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 15px;
+}
+.montserrat-font{
+    font-family: "Montserrat", sans-serif;
+}
+.noBorder {
+    border: none;
+    background: none;
+}
+
+/* Transferir dinero */
+.dinero-disponible{
+    padding: 5px;
+    border-radius: 10px;
+    background: #5252FF;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    /* Efecto sombra */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+
+    /* Efecto circulo */
+    background-image: url(/resources/elipse.svg);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.dinero-disponible p{
+    font-size: 12px;
+}
+.dinero-disponible .cantidad-dinero{
+    font-size: 25px;
+}
+.boton-siguiente{
+    margin-top: 15.875rem;
+    
+}
+.boton-siguiente input[type="submit"] {
+    width: 20.8125rem; 
+    height: 3.75rem; 
+    border: none;
+    border-radius: 0.625rem; 
+    cursor: pointer;
+    background-color: #311B92;
+    color: white;
+    font-size: 1.0625rem; 
+    font-weight: 600;
+}
+.boton-siguiente input[type="submit"]:hover {
+    background-color: rgba(31, 27, 146, 0.9);
+}
+
+/* Barra de navegacion */
+.barra-header{
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px .2px;
+}
+.barra-header i{
+    height: 20px;
+    width: 20px;
+    font-size: x-large;
+    color: #000;
+}
+.tipo-destino .card-header{
+    background: #1F1F1F;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.form-check-input{
+    margin-right: 10px;
+}
+.destino .list-group-item{
+    color: #4D4D4D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.list-group-item [type="radio"]:hover{
+    cursor: pointer;
+}
+  
+/* Cuenta destino Step 1 */
+.cuenta-destino{
+    margin-top: 40px;
+}
+.cuenta-destino .texto-descripcion{
+    margin-bottom: 10px;
+}
+.formLabelUser {
+    background-color: rgba(48, 63, 159, .2);
+    padding: 0.9375rem; 
+    border-radius: 0.625rem; 
+}
+.formLabelUser input:focus{
+    outline: none;
+}
