@@ -1,0 +1,5 @@
+-- cosas por hacer --
+- ver que los circulos no se rompan en responsive
+- ver el formulario del mensaje de transferencia unica,
+(queda chico el cuadro cuando se ingresa mucho texto)
+- hacer el multi step bar
