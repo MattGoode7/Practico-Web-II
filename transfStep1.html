@@ -43,13 +43,37 @@
           <i class="bi bi-arrow-left"></i>
         </a>
         <a href="#">
-          <img src="resources/logo_wibond.png" alt="logo_wibond" width="75">
+          <img src="resources/logo_wibond.png" alt="logo_wibond" width="75" />
         </a>
       </nav>
 
       <!-- Seccion Transferir Dinero Step 1-->
       <section class="transf-dinero">
         <h1>Transferir dinero</h1>
+
+        <!-- Barra de progreso -->
+        <div class="barra-progreso">
+          <div class="steps d-flex">
+            <span class="circle current-step">
+              <i class="bi bi-pencil"></i>
+              <i class="bi bi-check2 hide"></i>
+            </span>
+            <span class="circle">
+              <i class="bi bi-pencil hide"></i>
+              <i class="bi bi-three-dots"></i>
+              <i class="bi bi-check2 hide"></i>
+            </span>
+            <span class="circle">
+              <i class="bi bi-pencil hide"></i>
+              <i class="bi bi-three-dots"></i>
+              <i class="bi bi-check2 hide"></i>
+            </span>
+            <div class="progress-bar-1">
+              <span class="indicator"></span>
+            </div>
+          </div>
+        </div>
+
         <div class="dinero-disponible">
           <img src="resources/elipse.svg" alt="" class="elipse-effect-1" />
           <img src="resources/elipse.svg" alt="" class="elipse-effect-2" />
@@ -57,40 +81,52 @@
           <h2 class="lato-font cantidad-dinero">ARS $ 1236,0</h2>
         </div>
         <div class="card tipo-destino montserrat-font">
-          <div class="card-header montserrat-font">
-            Tipo de destino
-          </div>
+          <div class="card-header montserrat-font">Tipo de destino</div>
           <ul class="list-group list-group-flush destino">
             <li class="list-group-item d-flex justify-content-between">
               <label for="opcion1">Wibond</label>
-              <input type="radio" class="form-check-input rounded-5" name="opcion" id="opcion1" value="1">
+              <input
+                type="radio"
+                class="form-check-input rounded-5"
+                name="opcion"
+                id="opcion1"
+                value="1"
+              />
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <label for="opcion2">Cuenta bancaria</label>
-              <input type="radio" class="form-check-input" name="opcion" id="opcion2" value="2">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="opcion"
+                id="opcion2"
+                value="2"
+              />
             </li>
           </ul>
         </div>
         <div class="cuenta-destino">
-            <p class="texto-descripcion">
-                ¿Quién recibe la transferencia?
-            </p>
-            <form action="post">
-                <div class="formLabelUser container">
-                    <label for="user" class="bi-person"></label>
-                    <input
-                      type="text"
-                      id="user"
-                      name="user"
-                      placeholder="Usuario, DNI, CUIT o CUIL"
-                      required="true"
-                      class="noBorder"
-                    />
-                  </div>
-            </form>
+          <p class="texto-descripcion">¿Quién recibe la transferencia?</p>
+          <form action="post">
+            <div class="formLabelUser container">
+              <label for="user" class="bi-person"></label>
+              <input
+                type="text"
+                id="user"
+                name="user"
+                placeholder="Usuario, DNI, CUIT o CUIL"
+                required="true"
+                class="noBorder"
+              />
+            </div>
+          </form>
         </div>
         <div class="boton-siguiente d-flex justify-content-center">
-          <input type="submit" value="Siguiente" class="d-flex justify-content-center montserrat-font">
+          <input
+            type="submit"
+            value="Siguiente"
+            class="d-flex justify-content-center montserrat-font"
+          />
         </div>
       </section>
     </div>

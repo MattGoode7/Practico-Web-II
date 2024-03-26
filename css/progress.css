@@ -1,9 +1,9 @@
-.contenedor{
+.barra-progreso{
     max-width: 400px;
     width: 100%;
     position: relative;
 }
-.contenedor .steps{
+.barra-progreso .steps{
     display: flex;
     align-items: center;
     width: 100%;

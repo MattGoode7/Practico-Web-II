@@ -9,6 +9,7 @@ h1 {
   font-weight: bold;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 40px;
 }
 .texto-descripcion {
   text-decoration: none;
@@ -217,6 +218,7 @@ h1 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 20px;
 }
 .btn-archivo {
   /* width: 15.3125rem;
@@ -282,6 +284,61 @@ h1 {
 }
 
 /* Progress-Bar */
-.progress-icon-1 {
-  background-color: #fff;
+.barra-progreso{
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+.barra-progreso .steps{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.steps .circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50%;
+  background: #D7D8DA;
+}
+.steps .progress-bar-1{
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #e0e0e0;
+  z-index: -1;
+}
+.progress-bar-1 .indicator-blue{
+  position: absolute;
+  height: 100%;
+  width: 45%;
+  background: #4070f4;
+}
+.progress-bar-1 .indicator-green{
+  position: absolute;
+  height: 100%;
+  width: 45%;
+  background: #02BC8A;
+}
+.steps .current-step{
+  background: #507CDD;
+  color: #fff;
+}
+
+.steps .complete-step{
+  background: #02BC8A;
+  color: #fff;
+}
+/* .next-step{
+
+} */
+.hide{
+  display: none;
 }
