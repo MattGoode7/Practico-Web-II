@@ -1,185 +1,287 @@
+/* ************************** */
 /* Estilos generales */
-h1{
-    color: #000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    text-transform: capitalize;
+/* ************************** */
+h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: capitalize;
 }
-.texto-descripcion{
-    text-decoration: none;
-    color: rgba(28, 25, 57, 0.80);
-    font-family: "Lato", sans-serif;
-    font-size: 0.9375rem; 
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5625rem; 
+.texto-descripcion {
+  text-decoration: none;
+  color: rgba(28, 25, 57, 0.8);
+  font-family: "Lato", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5625rem;
 }
 
-.lato-font{
-    font-family: "Lato", sans-serif;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 15px;
+.lato-font {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 15px;
 }
-.montserrat-font{
-    font-family: "Montserrat", sans-serif;
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
 }
 .noBorder {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
+/* ************************** */
 /* Transferir dinero */
-.dinero-disponible{
-    padding: 5px;
-    border-radius: 10px;
-    background: #5252FF;
-    margin-top: 30px;
-    margin-bottom: 10px;
+/* ************************** */
+.dinero-disponible {
+  padding: 1px;
+  border-radius: 10px;
+  background: #5252ff;
+  margin-top: 30px;
+  margin-bottom: 10px;
 
-    /* Efecto sombra */
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  /* Efecto sombra */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 
-    /* Efecto circulo */
-    background-image: url(/resources/elipse.svg);
-    background-repeat: no-repeat;
-    background-size: 10rem;
+  /* Efecto circulo */
+  /* background-image: url(/resources/elipse.svg);
+  background-repeat: no-repeat;
+  background-size: 10rem; */
 }
 
-.dinero-disponible p{
-    font-size: 12px;
+.dinero-disponible p {
+  font-size: 12px;
 }
-.dinero-disponible .cantidad-dinero{
-    font-size: 25px;
+.dinero-disponible .cantidad-dinero {
+  font-size: 25px;
 }
-.boton-siguiente{
-    margin-top: 15.875rem;
-    
+.boton-siguiente {
+  margin-top: 13.875rem;
+  margin-bottom: 4rem;
 }
 .boton-siguiente input[type="submit"] {
-    width: 20.8125rem; 
-    height: 3.75rem; 
-    border: none;
-    border-radius: 0.625rem; 
-    cursor: pointer;
-    background-color: #311B92;
-    color: white;
-    font-size: 1.0625rem; 
-    font-weight: 600;
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background-color: #311b92;
+  color: white;
+  font-size: 1.0625rem;
+  font-weight: 600;
 }
 .boton-siguiente input[type="submit"]:hover {
-    background-color: rgba(31, 27, 146, 0.9);
+  background-color: rgba(31, 27, 146, 0.9);
 }
 
+/* ************************** */
 /* Barra de navegacion */
-.barra-header{
-    margin-bottom: 20px;
-    padding: 10px;
-    box-shadow: 0px .2px;
+/* ************************** */
+.barra-header {
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0px 0.2px;
 }
-.barra-header i{
-    height: 20px;
-    width: 20px;
-    font-size: x-large;
-    color: #000;
+.barra-header i {
+  height: 20px;
+  width: 20px;
+  font-size: x-large;
+  color: #000;
 }
-.tipo-destino .card-header{
-    background: #1F1F1F;
-    color: white;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.tipo-destino .card-header {
+  background: #1f1f1f;
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.form-check-input{
-    margin-right: 10px;
+.form-check-input {
+  margin-right: 10px;
 }
-.destino .list-group-item{
-    color: #4D4D4D;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.destino .list-group-item {
+  color: #4d4d4d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.list-group-item [type="radio"]:hover{
-    cursor: pointer;
+.list-group-item [type="radio"]:hover {
+  cursor: pointer;
 }
-  
+
+/* ************************** */
 /* Cuenta destino Step 1 */
-.cuenta-destino{
-    margin-top: 40px;
+/* ************************** */
+.cuenta-destino {
+  margin-top: 40px;
 }
-.cuenta-destino .texto-descripcion{
-    margin-bottom: 10px;
+.cuenta-destino .texto-descripcion {
+  margin-bottom: 10px;
 }
 .formLabelUser {
-    background-color: rgba(48, 63, 159, .2);
-    padding: 0.9375rem; 
-    border-radius: 0.625rem; 
+  background-color: rgba(48, 63, 159, 0.2);
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
 }
-.formLabelUser, .form-message input:focus{
-    outline: none;
+.formLabelUser input{
+  border: none;
+  outline: none;
+  width: 90%;
+}
+.formLabelUser,
+.form-message input:focus {
+  outline: none;
+}
+/* ************************** */
+/* Cuenta destino Step 2 */
+/* ************************** */
+
+.dinero-a-transferir {
+  color: #fff;
+  font-family: Lato;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+}
+.monto {
+  max-width: 15rem;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  overflow: scroll;
 }
 
-/* Cuenta destino Step 2 */
-.dinero-a-transferir {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 2.8125rem; /* 45px / 16px */
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 1.875rem; /* 30px / 16px */
-    margin-bottom: 3.125rem; /* 50px / 16px */
-  }
-  
-  .dinero-disponible-transferencia {
-    border-radius: 0.625rem; /* 10px / 16px */
-    background: #5252FF;
-    margin-top: 1.875rem; /* 30px / 16px */
-    margin-bottom: 0.625rem; /* 10px / 16px */
-    height: 15.625rem; /* 250px / 16px */
-  
-    /* Efecto sombra */
-    box-shadow: 0px 0px 0.3125rem 0px rgba(0, 0, 0, 0.25);
-  }
-  
-  .elipse-effect-1 {
-    position: absolute;
-    width: 13.17rem;
-    height: 13.75rem;
-    flex-shrink: 0;
-  }
-  
-  .elipse-effect-2 {
-    position: absolute;
-    width: 14.42rem;
-    height: 12.54rem;
-    flex-shrink: 0;
-    fill: rgba(255, 255, 255, 0.10);
-  }
-  
-  .impuestos {
-    margin-top: 2.5rem; /* 40px / 16px */
-    border-radius: 0.625rem; /* 10px / 16px */
-    border: 0.03125rem dashed rgba(0, 0, 0, 0.20); /* 0.5px / 16px */
-    background: rgba(80, 124, 221, 0.20);
-    padding: 0.5625rem; /* 0.9rem / 16px */
-  }
-  
-  .form-message {
-    margin-top: 1.25rem; /* 20px / 16px */
-    border-radius: 0.625rem; /* 10px / 16px */
-    background: rgba(196, 196, 196, 0.20);
-    padding: 0.375rem; /* 0.6rem / 16px */
-  }
-  
-  .icon-pencil {
-    margin-right: 0.625rem; /* 10px / 16px */
-  }
-  
+.dinero-disponible-transferencia {
+  border-radius: 0.625rem; /* 10px / 16px */
+  background: #5252ff;
+  margin-top: 1.875rem; /* 30px / 16px */
+  margin-bottom: 0.625rem; /* 10px / 16px */
+  height: 15.625rem; /* 250px / 16px */
+
+  /* Efecto sombra */
+  box-shadow: 0px 0px 0.3125rem 0px rgba(0, 0, 0, 0.25);
+}
+
+.elipse-effect-1 {
+  position: absolute;
+  width: 13.17rem;
+  height: 13.75rem;
+  flex-shrink: 0;
+}
+
+.elipse-effect-2 {
+  position: absolute;
+  width: 14.42rem;
+  height: 12.54rem;
+  flex-shrink: 0;
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.impuestos {
+  margin-top: 2.5rem; /* 40px / 16px */
+  border-radius: 0.625rem;
+  border: 0.03125rem dashed rgba(0, 0, 0, 0.2);
+  background: rgba(80, 124, 221, 0.2);
+  padding: 0.5625rem; /* 0.9rem / 16px */
+}
+
+.form-message {
+  margin-top: 1.25rem; /* 20px / 16px */
+  border-radius: 0.625rem; /* 10px / 16px */
+  background: rgba(196, 196, 196, 0.2);
+  padding: 0.375rem; /* 0.6rem / 16px */
+}
+.form-message input{
+  width: 90%;
+}
+
+.icon-pencil {
+  margin-right: 0.625rem; /* 10px / 16px */
+}
+
+/* Multi-transfer */
+.texto-info {
+  /* width: 20.4375rem; */
+  color: #4d4d4d;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btn-archivo {
+  /* width: 15.3125rem;
+  height: 2.5rem; */
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+.btn-subir-archivo {
+  background-color: #507cdd;
+  color: #ffffff;
+}
+.btn-bajar-archivo {
+  background-color: #fff;
+  color: #507cdd;
+}
+.btn-archivo img {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.btn-archivo span {
+  width: 4.25rem;
+  height: 1rem;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+.info-multiples {
+  /* width: 19.8125rem;
+  height: 2.5625rem; */
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #fff;
+  margin-top: 40px;
+
+  /* Efecto sombra */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.info-multiples button {
+  color: #4d4d4d;
+  font-family: Montserrat;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.num-circle {
+  color: #507cdd;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.circle-text {
+  font-size: 0.8rem;
+  /* width: 16.5625rem; */
+  color: #4d4d4d;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Progress-Bar */
+.progress-icon-1 {
+  background-color: #fff;
+}
