@@ -1,0 +1,52 @@
+.contenedor{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+.contenedor .steps{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.steps .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 50%;
+    background: #D7D8DA;
+}
+.steps .progress-bar-1{
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #e0e0e0;
+    z-index: -1;
+}
+.progress-bar-1 .indicator{
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    background: #4070f4;
+}
+.steps .current-step{
+    background: #507CDD;
+    color: #fff;
+}
+
+.steps .complete-step{
+    background: #02BC8A;
+    color: #fff;
+}
+
+.next-step{
+
+}
+.hide{
+    display: none;
+}
