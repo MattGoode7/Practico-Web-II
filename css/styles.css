@@ -1,6 +1,19 @@
 /* ************************** */
 /* Estilos generales */
 /* ************************** */
+.fs-12{
+  font-size: 12px;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.f-normal{
+  font-style: normal;
+  line-height: normal
+}
 h1 {
   color: #000;
   font-family: "Montserrat", sans-serif;
@@ -10,6 +23,9 @@ h1 {
   line-height: normal;
   text-transform: capitalize;
   margin-bottom: 40px;
+}
+.text-blue{
+  color: #311B92;
 }
 .texto-descripcion {
   text-decoration: none;
@@ -36,7 +52,18 @@ h1 {
   border: none;
   background: none;
 }
-
+.texto-info {
+  /* width: 20.4375rem; */
+  color: #4d4d4d;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.no-m-bottom{
+  margin-bottom: 0;
+}
 /* ************************** */
 /* Transferir dinero */
 /* ************************** */
@@ -63,8 +90,8 @@ h1 {
   font-size: 25px;
 }
 .boton-siguiente {
-  margin-top: 13.875rem;
-  margin-bottom: 4rem;
+  margin-top: 4.875rem;
+  margin-bottom: 1rem;
 }
 .boton-siguiente input[type="submit"] {
   width: 20.8125rem;
@@ -86,7 +113,7 @@ h1 {
 /* ************************** */
 .barra-header {
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 0px 0.2px;
 }
 .barra-header i {
@@ -116,6 +143,29 @@ h1 {
 .list-group-item [type="radio"]:hover {
   cursor: pointer;
 }
+.texto-logo {
+  color: #17171a;
+  font-feature-settings: "dlig" on;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.476px; /* 142.857% */
+  letter-spacing: 0.122px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.logo-wibond{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
 
 /* ************************** */
 /* Cuenta destino Step 1 */
@@ -131,7 +181,7 @@ h1 {
   padding: 0.9375rem;
   border-radius: 0.625rem;
 }
-.formLabelUser input{
+.formLabelUser input {
   border: none;
   outline: none;
   width: 90%;
@@ -202,7 +252,7 @@ h1 {
   background: rgba(196, 196, 196, 0.2);
   padding: 0.375rem; /* 0.6rem / 16px */
 }
-.form-message input{
+.form-message input {
   width: 90%;
 }
 
@@ -211,15 +261,6 @@ h1 {
 }
 
 /* Multi-transfer */
-.texto-info {
-  /* width: 20.4375rem; */
-  color: #4d4d4d;
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-top: 20px;
-}
 .btn-archivo {
   /* width: 15.3125rem;
   height: 2.5rem; */
@@ -284,19 +325,20 @@ h1 {
 }
 
 /* Progress-Bar */
-.barra-progreso{
+.barra-progreso {
   margin: auto;
+  margin-bottom: 30px;
   max-width: 400px;
   width: 100%;
   position: relative;
 }
-.barra-progreso .steps{
+.barra-progreso .steps {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
 }
-.steps .circle{
+.steps .circle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -306,39 +348,39 @@ h1 {
   font-size: 22px;
   font-weight: 500;
   border-radius: 50%;
-  background: #D7D8DA;
+  background: #d7d8da;
 }
-.steps .progress-bar-1{
+.steps .progress-bar-1 {
   position: absolute;
   height: 4px;
   width: 100%;
   background: #e0e0e0;
   z-index: -1;
 }
-.progress-bar-1 .indicator-blue{
+.progress-bar-1 .indicator-blue {
   position: absolute;
   height: 100%;
   width: 45%;
   background: #4070f4;
 }
-.progress-bar-1 .indicator-green{
+.progress-bar-1 .indicator-green {
   position: absolute;
   height: 100%;
   width: 45%;
-  background: #02BC8A;
+  background: #02bc8a;
 }
-.steps .current-step{
-  background: #507CDD;
+.steps .current-step {
+  background: #507cdd;
   color: #fff;
 }
 
-.steps .complete-step{
-  background: #02BC8A;
+.steps .complete-step {
+  background: #02bc8a;
   color: #fff;
 }
 /* .next-step{
 
 } */
-.hide{
+.hide {
   display: none;
 }

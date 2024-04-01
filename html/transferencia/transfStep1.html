@@ -10,7 +10,7 @@
 
     <!-- Titulo e iconos -->
     <title>Transferencia Unico Destino | Wibond</title>
-    <link rel="icon" type="image/x-icon" href="resources/logo_wibond.png" />
+    <link rel="icon" type="image/x-icon" href="/resources/logo_wibond.png" />
 
     <!-- Bootstrap -->
     <link
@@ -25,7 +25,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
 
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,7 +43,7 @@
           <i class="bi bi-arrow-left"></i>
         </a>
         <a href="#">
-          <img src="resources/logo_wibond.png" alt="logo_wibond" width="75" />
+          <img src="/resources/logo_wibond.png" alt="logo_wibond" width="75" />
         </a>
       </nav>
 
@@ -54,13 +54,8 @@
         <!-- Barra de progreso -->
         <div class="barra-progreso">
           <div class="steps d-flex">
-            <span class="circle complete-step">
-              <i class="bi bi-pencil hide"></i>
-              <i class="bi bi-check2"></i>
-            </span>
             <span class="circle current-step">
               <i class="bi bi-pencil"></i>
-              <i class="bi bi-three-dots hide"></i>
               <i class="bi bi-check2 hide"></i>
             </span>
             <span class="circle">
@@ -68,64 +63,64 @@
               <i class="bi bi-three-dots"></i>
               <i class="bi bi-check2 hide"></i>
             </span>
-            <!-- Barra azul -->
+            <span class="circle">
+              <i class="bi bi-pencil hide"></i>
+              <i class="bi bi-three-dots"></i>
+              <i class="bi bi-check2 hide"></i>
+            </span>
             <div class="progress-bar-1">
-              <span class="indicator-blue hide"></span>
-              <span class="indicator-green"></span>
+              <span class="indicator"></span>
             </div>
           </div>
         </div>
 
-        <div class="dinero-disponible-transferencia">
-          <img src="resources/elipse.svg" alt="" class="elipse-effect-1" />
-          <img src="resources/elipse.svg" alt="" class="elipse-effect-2" />
-          <div class="d-flex justify-content-between dinero-cuenta">
-            <p class="lato-font">Dinero disponible</p>
-            <p class="lato-font">ARS $ 1236,0</p>
-          </div>
-          <div class="dinero-a-transferir d-flex justify-content-center">
-          <input
-              class="monto noBorder"
-              id="monto"
-              type="text"
-              placeholder="$0,00"
-            />
-          </div>
-          <!-- <div class="dinero-a-transferir d-flex justify-content-center">
-            
-          </div> -->
-          <p
-            class="lato-font d-flex justify-content-center pregunta-transferir"
-          >
-            ¿Con cuánto querés transferir?
-          </p>
+        <div class="dinero-disponible">
+          <img src="/resources/elipse.svg" alt="" class="elipse-effect-1" />
+          <img src="/resources/elipse.svg" alt="" class="elipse-effect-2" />
+          <p class="lato-font">Dinero disponible</p>
+          <h2 class="lato-font cantidad-dinero">ARS $ 1236,0</h2>
         </div>
-        <div class="impuestos">
+        <div class="card tipo-destino montserrat-font">
+          <div class="card-header montserrat-font">Tipo de destino</div>
+          <ul class="list-group list-group-flush destino">
+            <li class="list-group-item d-flex justify-content-between">
+              <label for="opcion1">Wibond</label>
+              <input
+                type="radio"
+                class="form-check-input rounded-5"
+                name="opcion"
+                id="opcion1"
+                value="1"
+              />
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <label for="opcion2">Cuenta bancaria</label>
+              <input
+                type="radio"
+                class="form-check-input"
+                name="opcion"
+                id="opcion2"
+                value="2"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="cuenta-destino">
+          <p class="texto-descripcion">¿Quién recibe la transferencia?</p>
           <form action="post">
-            <div class="d-flex">
-              <label for="info" class="bi-exclamation-circle"></label>
-              <div class="d-flex justify-content-between container">
-                <p>Impuestos</p>
-                <p>$20,00</p>
-              </div>
+            <div class="formLabelUser container">
+              <label for="user" class="bi-person"></label>
+              <input
+                type="text"
+                id="user"
+                name="user"
+                placeholder="Usuario, DNI, CUIT o CUIL"
+                required="true"
+                class="noBorder"
+              />
             </div>
           </form>
         </div>
-        <form action="post">
-          <div class="form-message container d-flex justify-content-between">
-            <input
-              type="text"
-              id="message"
-              name="message"
-              placeholder=" Añadir mensaje"
-              class="noBorder"
-            />
-            <div>
-                <label for="message" class="bi-pencil-fill icon-pencil"></label>
-            </div>
-          </div>
-        </form>
-
         <div class="boton-siguiente d-flex justify-content-center">
           <input
             type="submit"
@@ -136,7 +131,6 @@
       </section>
     </div>
 
-    
     <!-- Parte de Bootstrap de .js (no tocar porque no sé que hace) -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

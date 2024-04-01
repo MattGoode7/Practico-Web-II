@@ -1,0 +1,188 @@
+/* **************************** */
+/* ++++++ Resumen Cuadro +++++ */
+/* **************************** */
+.resumen-header {
+  border-radius: 10px;
+}
+.resumen-header .card-header {
+  background: #1f1f1f;
+  align-content: center;
+  flex-direction: row;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 17px;
+}
+.circle-icon-destino {
+  width: 29px;
+  height: 29px;
+  background: #7165e3;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10.973px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.892px; /* 135.714% */
+}
+.texto-iniciales {
+  margin: auto;
+}
+.texto-info-resumen {
+  /* width: 20.4375rem; */
+  color: #4d4d4d;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.datos-persona {
+  padding: 0;
+  color: #4d4d4d;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 15px;
+}
+.texto-persona {
+  margin: 0;
+}
+.importe {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+/* **************************** */
+/* ++++ Verificacion medio ++++ */
+/* **************************** */
+.info-medios {
+  margin-bottom: 40px;
+}
+.medio-botones .btn {
+  margin-top: 5px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+.btn-mail {
+  border-color: #4d4d4d;
+}
+.btn-whatsapp {
+  border-color: #25d366;
+  color: #25d366;
+}
+.btn-sms {
+  border-color: #507cdd;
+  color: #507cdd;
+}
+.medio-botones .btn-mail:hover {
+  color: white;
+  background-color: #4d4d4d;
+}
+.medio-botones .btn-whatsapp:hover {
+  color: white;
+  background-color: #25d366;
+}
+.medio-botones .btn-sms:hover {
+  color: white;
+  background-color: #507cdd;
+}
+
+/* **************************** */
+/* ++++ Verificacion codigo ++++ */
+/* **************************** */
+.boton-siguiente button {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background-color: #311b92;
+  color: white;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.boton-siguiente button:hover {
+  background-color: rgba(31, 27, 146, 0.9);
+}
+.boton-siguiente button:disabled {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  background: #7f8a8e;
+  color: white;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.boton-cancelar {
+  margin-bottom: 4rem;
+}
+.boton-cancelar input[type="submit"] {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: 2px solid #7165e3;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: #7165e3;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.boton-cancelar input[type="submit"]:hover {
+  background-color: #7165e3;
+  color: white;
+}
+.ver-code {
+  margin: auto;
+  max-width: 244.999px;
+}
+.cuadro-codigo {
+  margin-top: 50px;
+  color: #000;
+  font-size: 24px;
+}
+.cuadro-codigo input {
+  height: 50px;
+  border-radius: 10px;
+  background-color: #d5d5e1;
+  border: none;
+  text-align: center;
+}
+.resend-code {
+  margin-top: 40px;
+  color: #979797;
+}
+/* **************************** */
+/* ++++++ Comprobante +++++ */
+/* **************************** */
+.circle-icon-emisor {
+  width: 29px;
+  height: 29px;
+  background: #233f78;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10.973px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.892px; /* 135.714% */
+}
+.interior-comprobante{
+    margin-top: 20px;
+}
+.compartir-comprobante{
+    text-decoration: none;
+    color: #233F78;
+}
+.compartir-comprobante p{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.saludo-comprobante{
+    color: #4D4D4D;
+    margin-top: 20px;
+}
