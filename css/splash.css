@@ -1,0 +1,54 @@
+/* Contenedor principal */
+.contenedor {
+    position: relative;
+}
+
+/* Contenedor del logo */
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Establece una escala inicial para el logo */
+.logo-wibond {
+    margin: auto;
+    margin-top: 40px;
+    transform: scale(0.8); /* Escala inicial */
+    transition: transform 1s ease; /* Transición suave */
+}
+
+/* Cuando el hover se aplica al contenedor, aumenta la escala del logo */
+.logo-container:hover .logo-wibond {
+    transform: scale(1); /* Escala aumentada */
+}
+
+/* Efecto de fade-in */
+.fade-in {
+    opacity: 0;
+    animation: fade-in-animation 2s forwards;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efecto de fade-out */
+.fade-out {
+    animation: fade-out-animation 3s forwards;
+}
+
+@keyframes fade-out-animation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
