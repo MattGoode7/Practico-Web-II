@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (segundosRestantes <= 0) {
         clearInterval(intervaloContador);
         contador.textContent = "Código disponible para reenviar";
-        // Aquí podrías habilitar algún botón de "Reenviar código" si lo deseas
+        // poner botón de "Reenviar código" (pendiente)
       } else {
         // Disminuir el contador en 1 segundo
         segundosRestantes--;

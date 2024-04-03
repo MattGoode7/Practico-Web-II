@@ -1,4 +1,4 @@
--- cosas por hacer --
+-- Cosas por hacer --
 - ver que los circulos no se rompan en responsive
 - ver el formulario del mensaje de transferencia unica,
 (queda chico el cuadro cuando se ingresa mucho texto)
@@ -24,3 +24,4 @@ hacer un scroll
 ¡¡¡¡IMPORTANTE!!!!
 - REVISAR QUE CAMBIE EL M-BOTTOM DEL BOTON SIGUIENTE Y SEGURO SE ROMPIÓ TODO
 - ORDENAR LOS ARCHIVOS (HICE UN RE QUILOMBO xd)
+- PONER UN TIMEOUT EN EL CODIGO DE VERIFICACION (NO ES GRATIS CADA MENSAJE)
