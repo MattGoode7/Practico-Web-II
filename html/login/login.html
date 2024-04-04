@@ -10,7 +10,11 @@
 
     <!-- Titulo e iconos -->
     <title>Login | Wibond</title>
-    <link rel="icon" type="image/x-icon" href="/resources/Logo-wibond-svg.svg" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/resources/Logo-wibond-svg.svg"
+    />
 
     <!-- Bootstrap -->
     <link
@@ -28,21 +32,24 @@
     <link rel="stylesheet" href="/css/estilos.css" />
 
     <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="loginForm container">
       <header class="mainLogoTop"></header>
-      <form method="post">
+      <form id="loginForm" method="post">
         <div class="formLabelUser">
           <label for="user" class="bi-person"></label>
           <input
             type="text"
             id="user"
             name="user"
-            placeholder=" Usuario"
+            placeholder="Usuario"
             required="true"
             class="noBorder"
           />
@@ -53,22 +60,25 @@
             type="password"
             id="password"
             name="password"
-            placeholder=" Contraseña"
+            placeholder="Contraseña"
             required="true"
             class="noBorder"
           />
         </div>
         <a href="#" class="passForget">¿Olvidaste tu contraseña?</a>
         <div class="elemento">
-          <input type="submit" value="Iniciar Sesión">
+          <input type="button" id="submitButton" value="Siguiente" />
         </div>
       </form>
       <div class="noAccount">
-        <p>¿No tenés una cuenta? - 
-          <span>
-            <a href="#">Registrate</a>
-          </span></p>
+        <p>
+          ¿No tienes una cuenta? - <span><a href="#">Regístrate</a></span>
+        </p>
       </div>
     </div>
+
+    <div id="loader" class="loader"></div>
+
+    <script src="/js/loader/loader.js"></script>
   </body>
 </html>
