@@ -1,17 +1,15 @@
 -- Cosas por hacer --
 - ver que los circulos no se rompan en responsive
-- ver el formulario del mensaje de transferencia unica,
-(queda chico el cuadro cuando se ingresa mucho texto)
 - hacer el multi step bar
 - cuando veamos js, hacer el cambio en el seleccion de cuenta (cbu o cuit cuil etc)
 - ver que el accordion no cambie de color antes de tiempo
-- hacer el splash
 - poner el subir archivo como para subir un file
 - poner las validaciones de los formularios
 - ver prefix de bootstrap
 
 hecho
 - cambiar el logo del wibond del navbar
+- hacer el splash
 
 
 hecho mas o menos
