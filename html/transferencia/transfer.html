@@ -38,12 +38,17 @@
   <body>
     <div class="container-sm">
       <!-- Barra de Navegacion -->
-      <nav class="nav barra-header d-flex justify-content-between">
+      <nav class="nav barra-header d-flex justify-content-between barra-nav">
         <a class="nav-link" href="#">
-          <i class="bi bi-arrow-left"></i>
+          <i class="bi bi-arrow-left" onclick="irAtras()"></i>
         </a>
-        <a href="#">
-          <img src="/resources/logo_wibond.png" alt="logo_wibond" width="75">
+        <a href="#" class="logo-wibond">
+          <img
+            src="/resources/navbar/logo_w.svg"
+            alt="logo_wibond"
+            width="50"
+          />
+          <p class="texto-logo">WIBOND</p>
         </a>
       </nav>
 
@@ -57,25 +62,45 @@
           <h2 class="lato-font cantidad-dinero">ARS $ 1236,0</h2>
         </div>
         <div class="card tipo-destino montserrat-font">
-          <div class="card-header montserrat-font">
-            Tipo de destino
-          </div>
+          <div class="card-header montserrat-font">Tipo de destino</div>
           <ul class="list-group list-group-flush destino">
             <li class="list-group-item d-flex justify-content-between">
               <label for="opcion1">Destinatario único</label>
-              <input type="radio" class="form-check-input rounded-5" name="opcion" id="opcion1" value="1">
+              <input
+                type="radio"
+                class="form-check-input rounded-5"
+                name="opcion"
+                id="opcion1"
+                value="1"
+              />
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <label for="opcion2">Múltiples destinatarios</label>
-              <input type="radio" class="form-check-input" name="opcion" id="opcion2" value="2">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="opcion"
+                id="opcion2"
+                value="2"
+              />
             </li>
           </ul>
         </div>
         <div class="boton-siguiente d-flex justify-content-center">
-          <input type="submit" value="Siguiente" class="d-flex justify-content-center montserrat-font">
+          <input
+            type="submit"
+            value="Siguiente"
+            class="d-flex justify-content-center montserrat-font"
+            onclick="redireccionar()"
+          />
         </div>
       </section>
     </div>
+
+    <!-- Scripts -->
+
+    <script src="/js/transferencias/seleccionar-destino.js"></script>
+    <script src="/js/utils/ir-atras.js"></script>
 
     <!-- Parte de Bootstrap de .js (no tocar porque no sé que hace) -->
     <script
