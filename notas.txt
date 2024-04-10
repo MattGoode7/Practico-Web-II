@@ -6,6 +6,8 @@
 - poner el subir archivo como para subir un file
 - poner las validaciones de los formularios
 - ver prefix de bootstrap
+- arreglar los estilos del recover
+- ver de cambiar la imagen o acomodarla
 
 hecho
 - cambiar el logo del wibond del navbar

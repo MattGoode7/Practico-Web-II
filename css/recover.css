@@ -1,0 +1,54 @@
+/* **************** */
+/* Botones */
+/* *************** */
+.boton-siguiente input {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: #311b92;
+  color: white;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.boton-siguiente input:hover:disabled {
+  background-color: #7f8a8e;
+}
+.boton-siguiente input:hover {
+  background-color: rgba(31, 27, 146, 0.9);
+}
+.boton-siguiente input:disabled {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  background: #7f8a8e;
+  color: white;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.boton-cancelar {
+  margin-bottom: 4rem;
+}
+.boton-cancelar input[type="submit"] {
+  width: 20.8125rem;
+  height: 3.75rem;
+  border: 2px solid #7165e3;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: #7165e3;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.boton-cancelar input[type="submit"]:hover {
+  background-color: #7165e3;
+  color: white;
+}
+
+/* Imagen */
+.recover-image img{
+    width: 300px;
+    height: 300px;
+}
